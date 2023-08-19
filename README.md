@@ -2,4 +2,4 @@ Clear Travel is an iOS app that revolutionizes travel planning by seamlessly int
 
 
 
-![Logo 2](https://github.com/aayushibhansali/Clear-Travel/assets/88921048/16b1aebe-5e7a-4635-b20f-4a45168ef7a3)
+<div align="center"> ![Logo 2](https://github.com/aayushibhansali/Clear-Travel/assets/88921048/16b1aebe-5e7a-4635-b20f-4a45168ef7a3) </div>
