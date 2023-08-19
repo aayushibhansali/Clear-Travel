@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F2B21072A0F8A61004464AD /* travel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2F2B21062A0F8A61004464AD /* travel.gif */; };
+		2F2B21092A0F9912004464AD /* GifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B21082A0F9912004464AD /* GifLoader.swift */; };
+		2F2B210B2A0FAB35004464AD /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B210A2A0FAB35004464AD /* ForgotPassword.swift */; };
+		2F2B210D2A0FAB62004464AD /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B210C2A0FAB62004464AD /* ResetPassword.swift */; };
+		2F3AF4AE2A0EBC1F0081F404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4AD2A0EBC1F0081F404 /* AppDelegate.swift */; };
+		2F3AF4B02A0EBC1F0081F404 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4AF2A0EBC1F0081F404 /* SceneDelegate.swift */; };
+		2F3AF4B52A0EBC1F0081F404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3AF4B32A0EBC1F0081F404 /* Main.storyboard */; };
+		2F3AF4B82A0EBC1F0081F404 /* ClearTravel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4B62A0EBC1F0081F404 /* ClearTravel.xcdatamodeld */; };
+		2F3AF4BA2A0EBC200081F404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3AF4B92A0EBC200081F404 /* Assets.xcassets */; };
+		2F3AF4BD2A0EBC200081F404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3AF4BB2A0EBC200081F404 /* LaunchScreen.storyboard */; };
+		2F3AF4C82A0EBC200081F404 /* ClearTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4C72A0EBC200081F404 /* ClearTravelTests.swift */; };
+		2F3AF4D22A0EBC200081F404 /* ClearTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4D12A0EBC200081F404 /* ClearTravelUITests.swift */; };
+		2F3AF4D42A0EBC200081F404 /* ClearTravelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4D32A0EBC200081F404 /* ClearTravelUITestsLaunchTests.swift */; };
+		2F3AF4E12A0EBC720081F404 /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4E02A0EBC720081F404 /* Signin.swift */; };
+		2F3AF4E32A0EBCE30081F404 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4E22A0EBCE30081F404 /* Selection.swift */; };
+		2F3AF4E52A0EBD240081F404 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4E42A0EBD240081F404 /* Signup.swift */; };
+		2F3AF4E72A0EBD4E0081F404 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4E62A0EBD4E0081F404 /* Ticket.swift */; };
+		2F3AF4E92A0EBD6F0081F404 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4E82A0EBD6F0081F404 /* Weather.swift */; };
+		2F3AF4EC2A0EBD950081F404 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4EB2A0EBD950081F404 /* Account.swift */; };
+		2F3AF4EE2A0EBDA10081F404 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4ED2A0EBDA10081F404 /* Profile.swift */; };
+		2F3AF4F02A0EBDB50081F404 /* TicketBookingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AF4EF2A0EBDB50081F404 /* TicketBookingHistory.swift */; };
+		2F65F7042A122F88001685F3 /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F65F7032A122F88001685F3 /* Webview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F3AF4C42A0EBC200081F404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3AF4A22A0EBC1F0081F404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3AF4A92A0EBC1F0081F404;
+			remoteInfo = ClearTravel;
+		};
+		2F3AF4CE2A0EBC200081F404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3AF4A22A0EBC1F0081F404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3AF4A92A0EBC1F0081F404;
+			remoteInfo = ClearTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F2B21062A0F8A61004464AD /* travel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = travel.gif; path = Pictures/travel.gif; sourceTree = SOURCE_ROOT; };
+		2F2B21082A0F9912004464AD /* GifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoader.swift; sourceTree = "<group>"; };
+		2F2B210A2A0FAB35004464AD /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		2F2B210C2A0FAB62004464AD /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		2F3AF4AA2A0EBC1F0081F404 /* ClearTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3AF4AD2A0EBC1F0081F404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F3AF4AF2A0EBC1F0081F404 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F3AF4B42A0EBC1F0081F404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F3AF4B72A0EBC1F0081F404 /* ClearTravel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClearTravel.xcdatamodel; sourceTree = "<group>"; };
+		2F3AF4B92A0EBC200081F404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F3AF4BC2A0EBC200081F404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F3AF4BE2A0EBC200081F404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3AF4C32A0EBC200081F404 /* ClearTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3AF4C72A0EBC200081F404 /* ClearTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearTravelTests.swift; sourceTree = "<group>"; };
+		2F3AF4CD2A0EBC200081F404 /* ClearTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3AF4D12A0EBC200081F404 /* ClearTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearTravelUITests.swift; sourceTree = "<group>"; };
+		2F3AF4D32A0EBC200081F404 /* ClearTravelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearTravelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F3AF4E02A0EBC720081F404 /* Signin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
+		2F3AF4E22A0EBCE30081F404 /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
+		2F3AF4E42A0EBD240081F404 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		2F3AF4E62A0EBD4E0081F404 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		2F3AF4E82A0EBD6F0081F404 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		2F3AF4EB2A0EBD950081F404 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		2F3AF4ED2A0EBDA10081F404 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		2F3AF4EF2A0EBDB50081F404 /* TicketBookingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookingHistory.swift; sourceTree = "<group>"; };
+		2F65F7032A122F88001685F3 /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F3AF4A72A0EBC1F0081F404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3AF4C02A0EBC200081F404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3AF4CA2A0EBC200081F404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F3AF4A12A0EBC1F0081F404 = {
+			isa = PBXGroup;
+			children = (
+				2F3AF4AC2A0EBC1F0081F404 /* ClearTravel */,
+				2F3AF4C62A0EBC200081F404 /* ClearTravelTests */,
+				2F3AF4D02A0EBC200081F404 /* ClearTravelUITests */,
+				2F3AF4AB2A0EBC1F0081F404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F3AF4AB2A0EBC1F0081F404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F3AF4AA2A0EBC1F0081F404 /* ClearTravel.app */,
+				2F3AF4C32A0EBC200081F404 /* ClearTravelTests.xctest */,
+				2F3AF4CD2A0EBC200081F404 /* ClearTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F3AF4AC2A0EBC1F0081F404 /* ClearTravel */ = {
+			isa = PBXGroup;
+			children = (
+				2F3AF4AD2A0EBC1F0081F404 /* AppDelegate.swift */,
+				2F3AF4AF2A0EBC1F0081F404 /* SceneDelegate.swift */,
+				2F3AF4B32A0EBC1F0081F404 /* Main.storyboard */,
+				2F3AF4B92A0EBC200081F404 /* Assets.xcassets */,
+				2F3AF4BB2A0EBC200081F404 /* LaunchScreen.storyboard */,
+				2F3AF4BE2A0EBC200081F404 /* Info.plist */,
+				2F3AF4EA2A0EBD7D0081F404 /* Profile */,
+				2F3AF4E02A0EBC720081F404 /* Signin.swift */,
+				2F3AF4E22A0EBCE30081F404 /* Selection.swift */,
+				2F3AF4E42A0EBD240081F404 /* Signup.swift */,
+				2F3AF4E62A0EBD4E0081F404 /* Ticket.swift */,
+				2F3AF4E82A0EBD6F0081F404 /* Weather.swift */,
+				2F2B210A2A0FAB35004464AD /* ForgotPassword.swift */,
+				2F2B21062A0F8A61004464AD /* travel.gif */,
+				2F2B21082A0F9912004464AD /* GifLoader.swift */,
+				2F2B210C2A0FAB62004464AD /* ResetPassword.swift */,
+				2F3AF4B62A0EBC1F0081F404 /* ClearTravel.xcdatamodeld */,
+				2F65F7032A122F88001685F3 /* Webview.swift */,
+			);
+			path = ClearTravel;
+			sourceTree = "<group>";
+		};
+		2F3AF4C62A0EBC200081F404 /* ClearTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3AF4C72A0EBC200081F404 /* ClearTravelTests.swift */,
+			);
+			path = ClearTravelTests;
+			sourceTree = "<group>";
+		};
+		2F3AF4D02A0EBC200081F404 /* ClearTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3AF4D12A0EBC200081F404 /* ClearTravelUITests.swift */,
+				2F3AF4D32A0EBC200081F404 /* ClearTravelUITestsLaunchTests.swift */,
+			);
+			path = ClearTravelUITests;
+			sourceTree = "<group>";
+		};
+		2F3AF4EA2A0EBD7D0081F404 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2F3AF4EB2A0EBD950081F404 /* Account.swift */,
+				2F3AF4ED2A0EBDA10081F404 /* Profile.swift */,
+				2F3AF4EF2A0EBDB50081F404 /* TicketBookingHistory.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F3AF4A92A0EBC1F0081F404 /* ClearTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3AF4D72A0EBC200081F404 /* Build configuration list for PBXNativeTarget "ClearTravel" */;
+			buildPhases = (
+				2F3AF4A62A0EBC1F0081F404 /* Sources */,
+				2F3AF4A72A0EBC1F0081F404 /* Frameworks */,
+				2F3AF4A82A0EBC1F0081F404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClearTravel;
+			productName = ClearTravel;
+			productReference = 2F3AF4AA2A0EBC1F0081F404 /* ClearTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F3AF4C22A0EBC200081F404 /* ClearTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3AF4DA2A0EBC200081F404 /* Build configuration list for PBXNativeTarget "ClearTravelTests" */;
+			buildPhases = (
+				2F3AF4BF2A0EBC200081F404 /* Sources */,
+				2F3AF4C02A0EBC200081F404 /* Frameworks */,
+				2F3AF4C12A0EBC200081F404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3AF4C52A0EBC200081F404 /* PBXTargetDependency */,
+			);
+			name = ClearTravelTests;
+			productName = ClearTravelTests;
+			productReference = 2F3AF4C32A0EBC200081F404 /* ClearTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F3AF4CC2A0EBC200081F404 /* ClearTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3AF4DD2A0EBC200081F404 /* Build configuration list for PBXNativeTarget "ClearTravelUITests" */;
+			buildPhases = (
+				2F3AF4C92A0EBC200081F404 /* Sources */,
+				2F3AF4CA2A0EBC200081F404 /* Frameworks */,
+				2F3AF4CB2A0EBC200081F404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3AF4CF2A0EBC200081F404 /* PBXTargetDependency */,
+			);
+			name = ClearTravelUITests;
+			productName = ClearTravelUITests;
+			productReference = 2F3AF4CD2A0EBC200081F404 /* ClearTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F3AF4A22A0EBC1F0081F404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2F3AF4A92A0EBC1F0081F404 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2F3AF4C22A0EBC200081F404 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2F3AF4A92A0EBC1F0081F404;
+					};
+					2F3AF4CC2A0EBC200081F404 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2F3AF4A92A0EBC1F0081F404;
+					};
+				};
+			};
+			buildConfigurationList = 2F3AF4A52A0EBC1F0081F404 /* Build configuration list for PBXProject "ClearTravel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F3AF4A12A0EBC1F0081F404;
+			productRefGroup = 2F3AF4AB2A0EBC1F0081F404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F3AF4A92A0EBC1F0081F404 /* ClearTravel */,
+				2F3AF4C22A0EBC200081F404 /* ClearTravelTests */,
+				2F3AF4CC2A0EBC200081F404 /* ClearTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F3AF4A82A0EBC1F0081F404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2B21072A0F8A61004464AD /* travel.gif in Resources */,
+				2F3AF4BD2A0EBC200081F404 /* LaunchScreen.storyboard in Resources */,
+				2F3AF4BA2A0EBC200081F404 /* Assets.xcassets in Resources */,
+				2F3AF4B52A0EBC1F0081F404 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3AF4C12A0EBC200081F404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3AF4CB2A0EBC200081F404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F3AF4A62A0EBC1F0081F404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3AF4E92A0EBD6F0081F404 /* Weather.swift in Sources */,
+				2F3AF4EE2A0EBDA10081F404 /* Profile.swift in Sources */,
+				2F2B210D2A0FAB62004464AD /* ResetPassword.swift in Sources */,
+				2F3AF4B82A0EBC1F0081F404 /* ClearTravel.xcdatamodeld in Sources */,
+				2F2B21092A0F9912004464AD /* GifLoader.swift in Sources */,
+				2F3AF4E32A0EBCE30081F404 /* Selection.swift in Sources */,
+				2F3AF4AE2A0EBC1F0081F404 /* AppDelegate.swift in Sources */,
+				2F3AF4F02A0EBDB50081F404 /* TicketBookingHistory.swift in Sources */,
+				2F3AF4B02A0EBC1F0081F404 /* SceneDelegate.swift in Sources */,
+				2F3AF4EC2A0EBD950081F404 /* Account.swift in Sources */,
+				2F3AF4E12A0EBC720081F404 /* Signin.swift in Sources */,
+				2F2B210B2A0FAB35004464AD /* ForgotPassword.swift in Sources */,
+				2F65F7042A122F88001685F3 /* Webview.swift in Sources */,
+				2F3AF4E72A0EBD4E0081F404 /* Ticket.swift in Sources */,
+				2F3AF4E52A0EBD240081F404 /* Signup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3AF4BF2A0EBC200081F404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3AF4C82A0EBC200081F404 /* ClearTravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3AF4C92A0EBC200081F404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3AF4D42A0EBC200081F404 /* ClearTravelUITestsLaunchTests.swift in Sources */,
+				2F3AF4D22A0EBC200081F404 /* ClearTravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F3AF4C52A0EBC200081F404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3AF4A92A0EBC1F0081F404 /* ClearTravel */;
+			targetProxy = 2F3AF4C42A0EBC200081F404 /* PBXContainerItemProxy */;
+		};
+		2F3AF4CF2A0EBC200081F404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3AF4A92A0EBC1F0081F404 /* ClearTravel */;
+			targetProxy = 2F3AF4CE2A0EBC200081F404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F3AF4B32A0EBC1F0081F404 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3AF4B42A0EBC1F0081F404 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F3AF4BB2A0EBC200081F404 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3AF4BC2A0EBC200081F404 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F3AF4D52A0EBC200081F404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F3AF4D62A0EBC200081F404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F3AF4D82A0EBC200081F404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2664DAGDWX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClearTravel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CA.ClearTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F3AF4D92A0EBC200081F404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2664DAGDWX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClearTravel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CA.ClearTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F3AF4DB2A0EBC200081F404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CA.ClearTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClearTravel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClearTravel";
+			};
+			name = Debug;
+		};
+		2F3AF4DC2A0EBC200081F404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CA.ClearTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClearTravel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClearTravel";
+			};
+			name = Release;
+		};
+		2F3AF4DE2A0EBC200081F404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CA.ClearTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClearTravel;
+			};
+			name = Debug;
+		};
+		2F3AF4DF2A0EBC200081F404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CA.ClearTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClearTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F3AF4A52A0EBC1F0081F404 /* Build configuration list for PBXProject "ClearTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3AF4D52A0EBC200081F404 /* Debug */,
+				2F3AF4D62A0EBC200081F404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3AF4D72A0EBC200081F404 /* Build configuration list for PBXNativeTarget "ClearTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3AF4D82A0EBC200081F404 /* Debug */,
+				2F3AF4D92A0EBC200081F404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3AF4DA2A0EBC200081F404 /* Build configuration list for PBXNativeTarget "ClearTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3AF4DB2A0EBC200081F404 /* Debug */,
+				2F3AF4DC2A0EBC200081F404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3AF4DD2A0EBC200081F404 /* Build configuration list for PBXNativeTarget "ClearTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3AF4DE2A0EBC200081F404 /* Debug */,
+				2F3AF4DF2A0EBC200081F404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F3AF4B62A0EBC1F0081F404 /* ClearTravel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F3AF4B72A0EBC1F0081F404 /* ClearTravel.xcdatamodel */,
+			);
+			currentVersion = 2F3AF4B72A0EBC1F0081F404 /* ClearTravel.xcdatamodel */;
+			path = ClearTravel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2F3AF4A22A0EBC1F0081F404 /* Project object */;
+}
